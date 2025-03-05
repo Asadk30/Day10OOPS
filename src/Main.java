@@ -6,8 +6,8 @@ public class Main {
       //  chevy.model = "malibu";
         // chevy.year = 2018;
 
-        Car chevy = new Car("Honda", "Pilot", "White", 2017);
+        Car Honda = new Car("Honda", "Pilot", "White", 2017);
 
-        System.out.println(chevy.getColor() + " " + chevy.getMake() + " " + chevy.getModel()+ " " + chevy.getYear());
+        System.out.println(Honda.getColor() + " " + Honda.getMake() + " " + Honda.getModel()+ " " + Honda.getYear());
     }
 }
